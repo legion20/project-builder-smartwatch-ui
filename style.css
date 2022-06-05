@@ -67,6 +67,27 @@ html,body{
     margin: 70px 20px 25px;
 }
 .faa {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
+}
+
+.sms {
+    background-color: white;
+}
+
+.sms p {
+    height: 9vh;
+    border-bottom: 1px solid #0000005c;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#showMsg {
+    position: absolute;
+    background: aliceblue;
+    height: 30vh;
+    width: 17vw;
+    border: none;
+    display: none;
 }
